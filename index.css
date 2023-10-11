@@ -6,10 +6,11 @@
 }
 
 body {
-    background-color: #838383;
+    background-color: #000;
 }
 
 h1 {
+    color: #838383;
     width: max-content;
     cursor: pointer;
     font-size: 38px;
@@ -17,7 +18,7 @@ h1 {
 }
 
 h1:hover {
-    transition: .2s;
+    transition: .3s;
     color: #fff;
 }
 
@@ -29,7 +30,7 @@ h1:hover {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
-    background-color: #a2a2a2;
+    background-color: #000;
 }
 
 .card {
